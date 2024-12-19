@@ -4,7 +4,7 @@ The instructions will help you import profile data to work with Altcraft Platfor
 
 ## Installing and running Postman
 
-1. First, make sure you have **Postman** installed. You can download it from the official website: (https://www.postman.com/downloads/)
+1. First, make sure you have **Postman** installed. You can download it from the official website: (e.g.,(https://www.postman.com/downloads/))
 
 2. Run **Postman**.
 
@@ -37,27 +37,27 @@ To do this, go to the **"Headers"** section. In the **“Key”** column, enter 
 ## Writing a request
 To do this, go back to the **“Body”**, **“raw”** tab. Let’s say you want to import a client’s profile via their email address. Then you should specify email in the matching field. Also known:
 
-• **token** - c7f55f8f24204b9f91bfaaedda052e49,
-• **db_id** - 1,
-• **_fname** – John,
-• **_Iname** – Doe
+• **token** - c7f55f8f24204b9f91bfaaedda052e49,  
+• **db_id** - 1,  
+• **_fname** – John,  
+• **_Iname** – Doe  
 
 Let's make a request:
 
- {
- "token": "c7f55f8f24204b9f91bfaaedda052e49",
- "db_id": 1,
- "matching": "email",
- "email": "john@example.com",
- "skip_triggers": true,
- "skip_invalid_subscriptions": true,
- "detect_geo": true,
- "data": {
- "_fname": "John",
- "_lname": "Doe"
- "_bdate": "YOUR_BDATE_HERE"T21:00:00Z"
-}
-}
+     {
+     "token": "c7f55f8f24204b9f91bfaaedda052e49",
+     "db_id": 1,
+     "matching": "email",
+     "email": "john@example.com",
+     "skip_triggers": true,
+     "skip_invalid_subscriptions": true,
+     "detect_geo": true,
+     "data": {
+     "_fname": "John",
+     "_lname": "Doe"
+     "_bdate": "YOUR_BDATE_HERE"T21:00:00Z"
+             }
+      }
 
 ![6](https://github.com/user-attachments/assets/532e2a0b-ebfc-419f-9cf6-c7005cb1bfc4)
 
