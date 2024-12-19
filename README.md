@@ -91,11 +91,11 @@ Go back to the **“Body”** tab. After that, replace **"YOUR_BDATE_HERE"** wit
 6. Supplement the request with other customer profile data.
 The request will look like this (you can copy it and paste it into the **Body** field):
 
-     {
-     "token": "c7f55f8f24204b9f91bfaaedda052e49",
-     "db_id": 1,
-     "matching": "email",
-     "email": "john@example.com",
+          {
+             "token": "c7f55f8f24204b9f91bfaaedda052e49",
+             "db_id": 1,
+             "matching": "email",
+             "email": "john@example.com",
      "skip_triggers": true,
      "skip_invalid_subscriptions": true,
      "detect_geo": true,
@@ -159,15 +159,15 @@ The request will look like this (you can copy it and paste it into the **Body** 
                 }
 
 New fields:
-  • **"_sex"** — gender, "0" for male, "1" for female;
+  • **"_sex"** — gender, "0" for male, "1" for female;  
   • **"_city"** — city;
-  • **"phones"** — phone number ;
-  • **"subscriptions"**– an array that stores data about profile subscriptions to resources. One object is one subscription;
-  • **"channel"** – channel type, for example, "email", "sms", " push";
-  • **"resource_id"** — resource identifier;
-  • **"cc_data"** - chat id for Telegram bot, profile phone for WhatsApp or Viber.
-
-## Sending a request
+  • **"phones"** — phone number ;  
+  • **"subscriptions"**– an array that stores data about profile subscriptions to resources. One object is one subscription;  
+  • **"channel"** – channel type, for example, "email", "sms", " push";  
+  • **"resource_id"** — resource identifier;  
+  • **"cc_data"** - chat id for Telegram bot, profile phone for WhatsApp or Viber.  
+  
+  ## Sending a request
 
 Click the **"Send"* button * top right.
 
