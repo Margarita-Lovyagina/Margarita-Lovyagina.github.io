@@ -58,17 +58,17 @@ Let's make a request:
              }
       }
 
-![6](https://github.com/user-attachments/assets/532e2a0b-ebfc-419f-9cf6-c7005cb1bfc4)
+![6](https://github.com/user-attachments/assets/532e2a0b-ebfc-419f-9cf6-c7005cb1bfc4)  
 
-  • **"token"** — API token;
-  • **"db_id"** — database identifier;
-  • **"matching"** and **"email"** — parameter for searching for a profile in the database. In this case, an email address is used to search for a profile. If a profile with such an address already exists in the database, the request will update its data; if not, a new profile will be created. The "matching" parameter can take various values. However, it is not mandatory and, if not specified, the profile will be searched by email;
+  • **"token"** — API token;  
+  • **"db_id"** — database identifier;  
+  • **"matching"** and **"email"** — parameter for searching for a profile in the database. In this case, an email address is used to search for a profile. If a profile with such an address already exists in the database, the request will update its data; if not, a new profile will be created. The "matching" parameter can take various values. However, it is not mandatory and, if not specified, the profile will be searched by email;  
   • **"skip_triggers"** - skip triggers
-(default – false);
+(default – false);  
   • **"skip_invalid_subscriptions"**- skip invalid subscriptions
-(default – false);
-  • **"detect_geo"** - enables automatic detection of geo data by the _regip or _ip field in data;
-  • **"data"** — an object containing profile data.
+(default – false);  
+  • **"detect_geo"** - enables automatic detection of geo data by the _regip or _ip field in data;  
+  • **"data"** — an object containing profile data.  
   • **"_fname"**, **"_lname"** – the client's first and last name.
   • **"_bdate"** – the client's date of birth in the format "1990-01-15T12:00:00Z".
 
@@ -91,7 +91,7 @@ Go back to the **“Body”** tab. After that, replace **"YOUR_BDATE_HERE"** wit
 6. Supplement the request with other customer profile data.
 The request will look like this (you can copy it and paste it into the **Body** field):
 
-    {
+     {
      "token": "c7f55f8f24204b9f91bfaaedda052e49",
      "db_id": 1,
      "matching": "email",
