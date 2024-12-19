@@ -89,7 +89,7 @@ Go back to the **“Body”** tab. After that, replace **"YOUR_BDATE_HERE"** wit
 
 ![8](https://github.com/user-attachments/assets/836506a4-6e9f-42f7-8e2c-1d0ccf0a6206)
 
-6. Supplement the request with other customer profile data.
+Supplement the request with other customer profile data.
 The request will look like this (you can copy it and paste it into the **Body** field):
 
           {
@@ -167,9 +167,9 @@ New fields:
   • **"resource_id"** — resource identifier;  
   • **"cc_data"** - chat id for Telegram bot, profile phone for WhatsApp or Viber.  
   
-  ## Sending a request
+## Sending a request
 
-Click the **"Send"* button * top right.
+Click the **"Send"** button top right.
 
 ![9](https://github.com/user-attachments/assets/58206609-7f4f-46d5-b858-c30556744fb3)
 
