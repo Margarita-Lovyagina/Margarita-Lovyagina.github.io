@@ -16,7 +16,7 @@ Click the **“New request”** button in the window that opens.
 
 ![2](https://github.com/user-attachments/assets/59be985d-23bf-4829-b3cf-e08609ef4e42)
 
-4. Fill in the request parameters
+Fill in the request parameters
 In the **“Request URL”** field, enter the API URL: <https://demo.altcraft.com/api/v1.1/profiles/import>
 
 Select the **“POST”** method for your request.
