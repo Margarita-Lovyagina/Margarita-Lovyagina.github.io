@@ -4,7 +4,7 @@ The instructions will help you import profile data to work with Altcraft Platfor
 
 ## Installing and running Postman
 
-1. First, make sure you have **Postman** installed. You can download it from the [official website] (https://www.postman.com/downloads/)
+1. First, make sure you have **Postman** installed. You can download it from the official website: <https://www.postman.com/downloads/>.
 
 2. Run **Postman**.
 
@@ -96,69 +96,68 @@ The request will look like this (you can copy it and paste it into the **Body** 
              "db_id": 1,
              "matching": "email",
              "email": "john@example.com",
-     "skip_triggers": true,
-     "skip_invalid_subscriptions": true,
-     "detect_geo": true,
-     "data": {
-     "_fname": "John",
-     "_lname": "Doe",
-     "_bdate": "{{pastDate}}T21:00:00Z",
-     "_sex": 0,
-     "_regdate": "2024-10-27T10:00:00Z",
-     "_regip": "192.168.1.1",
-     "_ip": "192.168.1.1",
-     "_tz": "Europe/Moscow",
-     "_postal_code": "12345",
-     "_os": "Windows 10",
-     "_browser": "Chrome",
-     "_vendor": "form_#31",
-     "phones": ["+79000000000"],
-     "subscriptions": [
-            {
-             "channel": "email",
-             "email": "john@example.com",
-             "resource_id": 1,
-             "custom_fields":
-            {
-             "_browser_name": "Chrome",
-             "_device_type": "web"
-            }
-            }
-             "cats": [
-             "category_1",
-             "category_2"
-                     ]
-            },
-            {
-             "channel": "sms",
-             "phone": "+79000000000",
-             "resource_id": 2
-            },
-            {
-             "channel": "push",
-             "subscription_id": "abcdefghijklmnqrstuvwxyz",
-             "provider": "android-firebase",
-             "resource_id": 2
-             },
-             {
-              "channel": "telegram_bot",
-              "cc_data": {}
-              },
-              {
-              "channel": "whatsapp",
-              "cc_data": {
-              "phone": "+79000000000"}
-               },
-               {
-                "channel": "viber",
-                "cc_data": {
-                "phone": "+79000000000"}
+             "skip_triggers": true,
+             "skip_invalid_subscriptions": true,
+             "detect_geo": true,
+             "data": {
+             "_fname": "John",
+             "_lname": "Doe",
+             "_bdate": "{{pastDate}}T21:00:00Z",
+             "_sex": 0,
+             "_regdate": "2024-10-27T10:00:00Z",
+             "_regip": "192.168.1.1",
+             "_ip": "192.168.1.1",
+             "_tz": "Europe/Moscow",
+             "_postal_code": "12345",
+             "_os": "Windows 10",
+             "_browser": "Chrome",
+             "_vendor": "form_#31",
+             "phones": ["+79000000000"],
+             "subscriptions": [
+                   {
+                     "channel": "email",
+                     "email": "john@example.com",
+                     "resource_id": 1,
+                     "custom_fields":
+                   {
+                     "_browser_name": "Chrome",
+                     "_device_type": "web"
+                   }
+                   }
+                     "cats": [
+                    "category_1",
+                    "category_2"
+                           ]
+                   },
+                   {
+                   "channel": "sms",
+                   "phone": "+79000000000",
+                    "resource_id": 2
+                    },
+                    {
+                    "channel": "push",
+                    "subscription_id": "abcdefghijklmnqrstuvwxyz",
+                    "provider": "android-firebase",
+                    "resource_id": 2
+                    },
+                    {"channel": "telegram_bot",
+                    "cc_data": {}
+                    },
+                    {
+                     "channel": "whatsapp",
+                     "cc_data": {
+                     "phone": "+79000000000"}
+                     },
+                     {
+                     "channel": "viber",
+                     "cc_data": {
+                     "phone": "+79000000000"}
+                     }
+                    ]
+                   }
                 }
-                ]
-                }
-                }
-
-New fields:
+   
+New fields:  
   • **"_sex"** — gender, "0" for male, "1" for female;  
   • **"_city"** — city;
   • **"phones"** — phone number ;  
